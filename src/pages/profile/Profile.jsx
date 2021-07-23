@@ -207,7 +207,7 @@ const Profile = () => {
               <button
                 className="btn btn-lg btn-success float-end"
                 onClick={handleSaveUserData}
-                disabled={!email || !password || !firstName || !lastName}
+                disabled={!email || !firstName || !lastName || !password}
               >
                 Guardar
               </button>
